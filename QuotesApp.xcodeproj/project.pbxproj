@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		DFEE56342B1881B100A269D0 /* QuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56332B1881B100A269D0 /* QuotesAppApp.swift */; };
-		DFEE56362B1881B100A269D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56352B1881B100A269D0 /* ContentView.swift */; };
+		DFEE56362B1881B100A269D0 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56352B1881B100A269D0 /* QuotesListView.swift */; };
 		DFEE56382B1881B200A269D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEE56372B1881B200A269D0 /* Assets.xcassets */; };
 		DFEE563B2B1881B200A269D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEE563A2B1881B200A269D0 /* Preview Assets.xcassets */; };
+		DFEE56452B1881F100A269D0 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56442B1881F100A269D0 /* QuotesViewModel.swift */; };
+		DFEE56472B1883A400A269D0 /* NewQuoteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56462B1883A400A269D0 /* NewQuoteSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFEE56302B1881B100A269D0 /* QuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEE56332B1881B100A269D0 /* QuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAppApp.swift; sourceTree = "<group>"; };
-		DFEE56352B1881B100A269D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFEE56352B1881B100A269D0 /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
 		DFEE56372B1881B200A269D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFEE563A2B1881B200A269D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFEE56442B1881F100A269D0 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		DFEE56462B1883A400A269D0 /* NewQuoteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuoteSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				DFEE56332B1881B100A269D0 /* QuotesAppApp.swift */,
-				DFEE56352B1881B100A269D0 /* ContentView.swift */,
+				DFEE56482B18843000A269D0 /* View */,
+				DFEE56432B1881E300A269D0 /* ViewModel */,
 				DFEE56372B1881B200A269D0 /* Assets.xcassets */,
 				DFEE56392B1881B200A269D0 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				DFEE563A2B1881B200A269D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFEE56432B1881E300A269D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE56442B1881F100A269D0 /* QuotesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFEE56482B18843000A269D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE56352B1881B100A269D0 /* QuotesListView.swift */,
+				DFEE56462B1883A400A269D0 /* NewQuoteSheet.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFEE56362B1881B100A269D0 /* ContentView.swift in Sources */,
+				DFEE56362B1881B100A269D0 /* QuotesListView.swift in Sources */,
+				DFEE56452B1881F100A269D0 /* QuotesViewModel.swift in Sources */,
 				DFEE56342B1881B100A269D0 /* QuotesAppApp.swift in Sources */,
+				DFEE56472B1883A400A269D0 /* NewQuoteSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
