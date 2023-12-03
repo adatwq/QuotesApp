@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             List {
-                ForEach(viewModel.quotes, id: \.self){ quote in
+                ForEach(MyQuotes.quotes, id: \.self){ quote in
                     Text(quote)
                         .italic()
                 }

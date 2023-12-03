@@ -13,7 +13,39 @@
 		DFEE563B2B1881B200A269D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEE563A2B1881B200A269D0 /* Preview Assets.xcassets */; };
 		DFEE56452B1881F100A269D0 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56442B1881F100A269D0 /* QuotesViewModel.swift */; };
 		DFEE56472B1883A400A269D0 /* NewQuoteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56462B1883A400A269D0 /* NewQuoteSheet.swift */; };
+		DFEE56502B1892C400A269D0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE564F2B1892C400A269D0 /* WidgetKit.framework */; };
+		DFEE56522B1892C400A269D0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEE56512B1892C400A269D0 /* SwiftUI.framework */; };
+		DFEE56552B1892C400A269D0 /* QuotesWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56542B1892C400A269D0 /* QuotesWidgetBundle.swift */; };
+		DFEE56572B1892C400A269D0 /* QuotesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56562B1892C400A269D0 /* QuotesWidget.swift */; };
+		DFEE56592B1892C500A269D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEE56582B1892C500A269D0 /* Assets.xcassets */; };
+		DFEE565D2B1892C500A269D0 /* QuotesWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DFEE564D2B1892C400A269D0 /* QuotesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFEE56642B18B6AE00A269D0 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56632B18B6AE00A269D0 /* Quotes.swift */; };
+		DFEE56652B18BA8600A269D0 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE56632B18B6AE00A269D0 /* Quotes.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFEE565B2B1892C500A269D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFEE56282B1881B100A269D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFEE564C2B1892C400A269D0;
+			remoteInfo = QuotesWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFEE56612B1892C500A269D0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFEE565D2B1892C500A269D0 /* QuotesWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DFEE56302B1881B100A269D0 /* QuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +55,14 @@
 		DFEE563A2B1881B200A269D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFEE56442B1881F100A269D0 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
 		DFEE56462B1883A400A269D0 /* NewQuoteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuoteSheet.swift; sourceTree = "<group>"; };
+		DFEE564D2B1892C400A269D0 /* QuotesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuotesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEE564F2B1892C400A269D0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DFEE56512B1892C400A269D0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DFEE56542B1892C400A269D0 /* QuotesWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidgetBundle.swift; sourceTree = "<group>"; };
+		DFEE56562B1892C400A269D0 /* QuotesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidget.swift; sourceTree = "<group>"; };
+		DFEE56582B1892C500A269D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEE565A2B1892C500A269D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEE56632B18B6AE00A269D0 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +73,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFEE564A2B1892C400A269D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEE56522B1892C400A269D0 /* SwiftUI.framework in Frameworks */,
+				DFEE56502B1892C400A269D0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				DFEE56322B1881B100A269D0 /* QuotesApp */,
+				DFEE56532B1892C400A269D0 /* QuotesWidget */,
+				DFEE564E2B1892C400A269D0 /* Frameworks */,
 				DFEE56312B1881B100A269D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				DFEE56302B1881B100A269D0 /* QuotesApp.app */,
+				DFEE564D2B1892C400A269D0 /* QuotesWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +107,7 @@
 		DFEE56322B1881B100A269D0 /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				DFEE56622B18B6A200A269D0 /* Shared */,
 				DFEE56332B1881B100A269D0 /* QuotesAppApp.swift */,
 				DFEE56482B18843000A269D0 /* View */,
 				DFEE56432B1881E300A269D0 /* ViewModel */,
@@ -89,6 +142,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DFEE564E2B1892C400A269D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE564F2B1892C400A269D0 /* WidgetKit.framework */,
+				DFEE56512B1892C400A269D0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFEE56532B1892C400A269D0 /* QuotesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE56542B1892C400A269D0 /* QuotesWidgetBundle.swift */,
+				DFEE56562B1892C400A269D0 /* QuotesWidget.swift */,
+				DFEE56582B1892C500A269D0 /* Assets.xcassets */,
+				DFEE565A2B1892C500A269D0 /* Info.plist */,
+			);
+			path = QuotesWidget;
+			sourceTree = "<group>";
+		};
+		DFEE56622B18B6A200A269D0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE56632B18B6AE00A269D0 /* Quotes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,15 +180,34 @@
 				DFEE562C2B1881B100A269D0 /* Sources */,
 				DFEE562D2B1881B100A269D0 /* Frameworks */,
 				DFEE562E2B1881B100A269D0 /* Resources */,
+				DFEE56612B1892C500A269D0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DFEE565C2B1892C500A269D0 /* PBXTargetDependency */,
 			);
 			name = QuotesApp;
 			productName = QuotesApp;
 			productReference = DFEE56302B1881B100A269D0 /* QuotesApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DFEE564C2B1892C400A269D0 /* QuotesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEE565E2B1892C500A269D0 /* Build configuration list for PBXNativeTarget "QuotesWidgetExtension" */;
+			buildPhases = (
+				DFEE56492B1892C400A269D0 /* Sources */,
+				DFEE564A2B1892C400A269D0 /* Frameworks */,
+				DFEE564B2B1892C400A269D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotesWidgetExtension;
+			productName = QuotesWidgetExtension;
+			productReference = DFEE564D2B1892C400A269D0 /* QuotesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -120,6 +220,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					DFEE562F2B1881B100A269D0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DFEE564C2B1892C400A269D0 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -138,6 +241,7 @@
 			projectRoot = "";
 			targets = (
 				DFEE562F2B1881B100A269D0 /* QuotesApp */,
+				DFEE564C2B1892C400A269D0 /* QuotesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +256,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFEE564B2B1892C400A269D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEE56592B1892C500A269D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -161,12 +273,31 @@
 			files = (
 				DFEE56362B1881B100A269D0 /* QuotesListView.swift in Sources */,
 				DFEE56452B1881F100A269D0 /* QuotesViewModel.swift in Sources */,
+				DFEE56642B18B6AE00A269D0 /* Quotes.swift in Sources */,
 				DFEE56342B1881B100A269D0 /* QuotesAppApp.swift in Sources */,
 				DFEE56472B1883A400A269D0 /* NewQuoteSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFEE56492B1892C400A269D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEE56572B1892C400A269D0 /* QuotesWidget.swift in Sources */,
+				DFEE56552B1892C400A269D0 /* QuotesWidgetBundle.swift in Sources */,
+				DFEE56652B18BA8600A269D0 /* Quotes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFEE565C2B1892C500A269D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFEE564C2B1892C400A269D0 /* QuotesWidgetExtension */;
+			targetProxy = DFEE565B2B1892C500A269D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DFEE563C2B1881B200A269D0 /* Debug */ = {
@@ -291,6 +422,7 @@
 		DFEE563F2B1881B200A269D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +452,7 @@
 		DFEE56402B1881B200A269D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,6 +479,60 @@
 			};
 			name = Release;
 		};
+		DFEE565F2B1892C500A269D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R29TH66V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuotesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuotesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khawlah-Khalid.QuotesApp.QuotesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFEE56602B1892C500A269D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R29TH66V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuotesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuotesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khawlah-Khalid.QuotesApp.QuotesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +550,15 @@
 			buildConfigurations = (
 				DFEE563F2B1881B200A269D0 /* Debug */,
 				DFEE56402B1881B200A269D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEE565E2B1892C500A269D0 /* Build configuration list for PBXNativeTarget "QuotesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEE565F2B1892C500A269D0 /* Debug */,
+				DFEE56602B1892C500A269D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
