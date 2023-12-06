@@ -79,7 +79,7 @@ struct QuotesWidget: Widget {
         }
         .configurationDisplayName("Quote Widget")
         .description("Have a nice quote every day!")
-        .supportedFamilies([.systemMedium])
+        
         .contentMarginsDisabled()
     }
 }
