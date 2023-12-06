@@ -20,7 +20,7 @@ struct NewQuoteSheet: View{
             .toolbar{
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Done"){
-                        viewModel.quotes.append(viewModel.newQuote)
+                        MyQuotes.quotes.append(viewModel.newQuote)
                         viewModel.showAddQuoteSheet.toggle()
                         viewModel.newQuote = ""
                     }
