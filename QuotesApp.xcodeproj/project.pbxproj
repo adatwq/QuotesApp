@@ -107,8 +107,8 @@
 		DFEE56322B1881B100A269D0 /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
-				DFEE56622B18B6A200A269D0 /* Shared */,
 				DFEE56332B1881B100A269D0 /* QuotesAppApp.swift */,
+				DFEE56622B18B6A200A269D0 /* Shared */,
 				DFEE56482B18843000A269D0 /* View */,
 				DFEE56432B1881E300A269D0 /* ViewModel */,
 				DFEE56372B1881B200A269D0 /* Assets.xcassets */,
